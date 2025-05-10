@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+/* Apply Montserrat font to all elements */
+* {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+/* Specific styling for the login title */
+div#kc-page-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 15px;
+}
+
+/* Remove bold from the second title */
+h1#kc-page-title {
+  font-weight: normal;
+}
